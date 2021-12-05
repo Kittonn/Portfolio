@@ -154,7 +154,7 @@ nav .fa{
 .activities-col {
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 0;
     text-align: center;
 }
 
@@ -196,7 +196,7 @@ nav .fa{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding: 0;
+    padding: 50px 0 0;
 }
 
 .cert h1{
