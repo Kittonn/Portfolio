@@ -181,7 +181,7 @@ nav .fa{
     }
 
     .activities h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
@@ -200,7 +200,7 @@ nav .fa{
     flex-basis: 32%;
     border-radius: 10px;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 0;
 }
 
 .cert-col img{
@@ -220,6 +220,69 @@ nav .fa{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 700px){
+    .cert h1{
+        font-size: 30px;
+    }
+}
 
+.project {
+    width: 80%;
+    padding: 50px 0 0;
+    margin: auto;
+    text-align: center;
+}
 
+.project h1 {
+    font-size: 40px;
+}
 
+.project-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(226, 0, 0, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 600;
+    color: #000;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+@media (max-width: 700px){
+    .project h1{
+        font-size: 30px;
+    }
+}
