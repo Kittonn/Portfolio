@@ -133,3 +133,93 @@ nav .fa{
         font-size: 22px;
     }
 }
+
+.activities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0 0;
+}
+
+.activities h1 {
+    font-size: 40px;
+}
+
+.activities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.activities-col img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: 0.5s;
+}
+
+.activities-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activities-col img:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700px){
+    .row {
+        flex-direction: column;
+    }
+
+    .activities h1 {
+        font-size: 20px;
+    }
+}
+
+.cert {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.cert h1{
+    font-size: 40px;
+}
+
+.cert-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.cert-col img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.cert-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cert-col img:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
