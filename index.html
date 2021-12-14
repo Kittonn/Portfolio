@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>MY PORTFOLIO</title>
+    <title>PORTFOLIO</title>
 </head>
 <body>
     <section class="header">
@@ -16,11 +16,11 @@
             <div class="nav-links" id="navLinks" onclick="hideMenu()">
                 <i class="fa fa-times"></i>
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PROFILE</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">ACTIVITIES</a></li>
-                    <li><a href="#">CERTIFICATES</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#profile">PROFILE</a></li>
+                    <li><a href="#project">PROJECTS</a></li>
+                    <li><a href="#activity">ACTIVITIES</a></li>
+                    <li><a href="#cert">CERTIFICATES</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -28,11 +28,16 @@
         <div class="name-box">
             <h1>KITTIPOD LAMBANGCHANG</h1>
             <p>I'm a student At Mary Vitthaya Kabinburi School and Interested <br> in Data Science And Artificial Intelligence.</p>
-            <a href="" class="go-btn">Visit Us to Know More</a>
+            <a href="#profile" class="go-btn">Visit Us to Know More</a>
         </div>
     </section>
 
-    <section class="project">
+    <section class="profile" id = 'profile'>
+        <h1><i class="fas fa-user"></i> PROFILE</h1>
+        <h3>Coming soon!!!!</h3>
+    </section>
+
+    <section class="project" id ='project'>
         <h1><i class="fas fa-folder"></i> PROJECTS</h1>
         <div class="row">
             <div class="project-col">
@@ -76,7 +81,7 @@
         </div>
     </section>
 
-    <section class="activities">
+    <section class="activities" id ='activity'>
         <h1><i class="fas fa-cogs"></i> ACTIVITIES</h1>
         <div class="row">
             <div class="activities-col">
@@ -136,7 +141,7 @@
         </div>
     </section>
 
-    <section class="cert">
+    <section class="cert" id='cert'>
         <h1><i class="fas fa-trophy"></i> CERTIFICATES</h1>
         <div class="row">
             <div class="cert-col">
