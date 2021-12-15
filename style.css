@@ -106,7 +106,7 @@ nav .fa{
     }
 
     .name-box h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .nav-links ul li {
@@ -289,6 +289,7 @@ nav .fa{
     opacity: 1;
 }
 
+
 @media (max-width: 700px){
     .project h1{
         font-size: 30px;
@@ -430,4 +431,3 @@ html {
     }
     
 }
-
