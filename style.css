@@ -314,15 +314,13 @@ nav .fa{
     margin-top: 30px;
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 15px 0;
     background-color: #f4f2e6;
 }
 
 .footer h4 {
-    margin-bottom: 20px;
-    margin-top: 20px;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .icons .fab {
@@ -347,8 +345,8 @@ nav .fa{
         font-size: 30px;
     }
 
-    .footer p {
-        font-size: 14px;
+    .footer h4 {
+        font-size: 15px;
     }
 }
 
