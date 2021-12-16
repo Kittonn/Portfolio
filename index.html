@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <title>PORTFOLIO</title>
 
     
@@ -17,7 +18,7 @@
 </head>
 <body>
     <section class="header">
-        <nav>
+        <nav class='navbar'>
             <a href=""><img src="img/logo.png"></a>
             <div class="nav-links" id="navLinks" onclick="hideMenu()">
                 <i class="fa fa-times"></i>
@@ -32,33 +33,38 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="name-box">
-            <h1>KITTIPOD LAMBANGCHANG</h1>
+            <h1><span class="typing"></span></h1>
             <p>I'm a student At Mary Vitthaya Kabinburi School and Interested <br> in Data Science And Artificial Intelligence.</p>
             <a href="#profile" class="go-btn">Visit Us to Know More</a>
         </div>
     </section>
 
     <section class="profile" id = 'profile'>
-        <h1><i class="fas fa-user"></i> PROFILE</h1>
-        <div class="profile-img" >
-            <img   data-aos='fade-up' data-aos-duration="500" src="img/profile.jpg">
-        </div>
-        <div class="profile-txt"> 
-            <div class="pro-txt">
-                 <h3>ประวัติส่วนตัว</h3>
-                <p>ชื่อ-สกุล : นายกิตติพศ หลำบางช้าง  ชื่อเล่น : ต้น </p>  
-                <p>วัน/เดือน/ปีเกิด : 23 เมษายน 2547 อายุ : 17 ปี</p> 
-                <p>ศาสนา : พุทธ สัญชาติ : ไทย เชื้อชาติ : ไทย</p> 
+        <h1><i class="fas fa-user"></i> ABOUT ME</h1>
+        <div class="row">
+            <div class="about-col">
+                <img src="img/profile.jpg" alt="">
+            </div>
+            <div class="about-txt">
+                <h3>I'm Kittipod Lambangchang and interested in <span class="type"></span></h3>
+                <p>I'v finished 12 th grade from MaryVitthaya Kabinburi School.</p>
+                <h4>GPAX : 3.99</h4>
+                <p class="contact">
+                    <a href="https://web.facebook.com/Thunder2004/"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/kitton._/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/lnwtxn"><i class="fab fa-github-square"></i></a>
+                    <a href="https://discord.gg/xqdAaJty"><i class="fab fa-discord"></i></a>
+                </p>
             </div>
         </div>
         <div class="skilldiv">
             <h3>ทักษะ/ความสามารถ</h3>
-            <p class="skill">
+            <div class="skill">
                 <a><i class="fab fa-python"></i></a>
                 <a><i class="fab fa-html5"></i></a>
                 <a><i class="fab fa-css3-alt"></i></a>
                 <a><i class="fab fa-js-square"></i></a>
-            </p>
+            </div>
         </div>
     </section>
 
@@ -88,7 +94,7 @@
         <div class="row">
             <div class="project-col">
                 <img   data-aos='fade-up' data-aos-duration="500" src="img/p_04.jpg">
-                <div class="layer">
+                <div class"layer">
                     <h3>GRADE MANAGEMENT</h3>
                 </div>
             </div>
